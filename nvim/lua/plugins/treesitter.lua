@@ -1,8 +1,8 @@
 return {
-	{
-		"nvim-treesitter/nvim-treesitter",
-		opts = {
-			ensure_installed = {
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
         "bash",
         "html",
         "javascript",
@@ -16,18 +16,19 @@ return {
         "typescript",
         "vim",
         "yaml",
-				"css",
-				"gitignore",
-				"graphql",
-				"http",
-				"scss",
-				"sql",
-			},
-			query_linter = {
-				enable = true,
-				use_virtual_text = true,
-				lint_events = { "BufWrite", "CursorHold" },
-			},
-		},
-	},
+        "css",
+        "gitignore",
+        "graphql",
+        "http",
+        "scss",
+        "sql",
+      },
+      query_linter = {
+        enable = true,
+        use_virtual_text = true,
+        lint_events = { "BufWrite", "CursorHold" },
+      },
+    },
+  },
 }
+
