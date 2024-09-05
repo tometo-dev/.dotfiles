@@ -6,6 +6,8 @@ return {
         "bash",
         "html",
         "javascript",
+        "rust",
+        "ron",
         "json",
         "lua",
         "markdown",
@@ -31,4 +33,3 @@ return {
     },
   },
 }
-
